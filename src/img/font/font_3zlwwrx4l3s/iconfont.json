@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "356460",
+      "name": "圈勾",
+      "font_class": "quangou",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

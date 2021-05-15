@@ -1,0 +1,228 @@
+@min-width: 1226px;
+@center   : 0 auto;
+.footer {
+    >.server {
+        background: #fff;
+
+        >.version_heart {
+            width : @min-width;
+            margin: @center;
+            height: 332px;
+
+            >:first-child {
+                padding      : 27px 0;
+                text-align   : center;
+                height       : 80px;
+                border-bottom: 1px solid #e0e0e0;
+
+                >a {
+                    font-size      : 16px;
+                    display        : block;
+                    width          : 242px;
+                    float          : left;
+                    text-decoration: none;
+                    color          : #333;
+                }
+            }
+
+            >:nth-child(2) {
+                padding: 40px 0;
+                float  : left;
+                width  : @min-width;
+                height : 252px;
+
+                >:first-child {
+                    >ul {
+                        list-style: none;
+                        float     : left;
+                        width     : 160px;
+
+                        >.title {
+                            margin: -1px 0 26px;
+                        }
+
+                        >li {
+                            font-size: 14px;
+                            color    : #333;
+                            margin   : 10px 0 0;
+
+                            >a {
+                                font-size      : 12px;
+                                color          : #757575;
+                                text-decoration: none;
+                            }
+
+                            >a:hover {
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+
+                >:last-child {
+                    float      : left;
+                    width      : 251px;
+                    border-left: 1px solid #e0e0e0;
+                    text-align : center;
+                    color      : #616161;
+
+                    >.phone {
+                        font-size  : 22px;
+                        line-height: 1;
+                        color      : #ff6700;
+                    }
+
+                    >p {
+                        margin   : 0 0 5px 0;
+                        font-size: 12px;
+                    }
+
+                    >a {
+                        text-decoration: none;
+                        display        : block;
+                        width          : 118px;
+                        height         : 28px;
+                        border         : 1px solid #ff6700;
+                        margin         : 0 auto;
+                        line-height    : 28px;
+                        color          : #ff6700;
+                        font-size      : 12px;
+
+                        >.icon-qipao {
+                            font-size: 12px;
+                        }
+                    }
+
+                    >a:hover {
+                        background: #f25807;
+                        color     : #fff;
+                    }
+
+                    >:last-child {
+                        margin   : 10px 0 0;
+                        font-size: 12px;
+
+                        >a {
+                            text-decoration: none;
+
+                            >.icon-xinlang,
+                            .icon-weixin {
+                                color    : #757575;
+                                font-size: 24px;
+                                margin   : -3px 0 0 6px;
+                            }
+
+                            >.icon-weixin {
+                                position: relative;
+
+                                >img {
+                                    width   : 126px;
+                                    height  : 126px;
+                                    position: absolute;
+                                    left    : -50px;
+                                    top     : 25px;
+                                    display : none;
+                                }
+                            }
+
+                            >.icon-xinlang:hover {
+                                color: #ff6700;
+                            }
+
+                            >.icon-weixin:hover {
+                                color: #ff6700;
+
+                                >img {
+                                    display: block;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    >.info {
+        background: #fafafa;
+
+        >.version_heart {
+            width  : @min-width;
+            margin : @center;
+            padding: 35px 0;
+
+            >:first-child {
+                >img {
+                    width       : 56px;
+                    height      : 56px;
+                    float       : left;
+                    margin-right: 10px;
+                }
+            }
+
+            >:nth-child(2) {
+                float     : left;
+                margin-top: 3px;
+
+                a:hover {
+                    color: #ff6700;
+                }
+
+                >p {
+                    margin   : 0 0 0 4px;
+                    font-size: 12px;
+                    color    : #757575;
+
+                    >a {
+                        text-decoration: none;
+                        font-size      : 12px;
+                        color          : #757575;
+                    }
+
+                    >span {
+                        font-size: 12px;
+                        color    : #757575;
+                        margin   : 0 4px;
+                    }
+
+                    >div {
+                        >a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                >:last-child {
+
+                    >a {
+                        text-decoration: none;
+
+                        >img {
+                            width: 80px;
+                        }
+                    }
+
+                    >:last-child {
+                        position: relative;
+
+                        >.green-img {
+                            position: absolute;
+                            left    : 8px;
+                            top     : -6px;
+                        }
+                    }
+
+                }
+            }
+
+            >:last-child {
+                text-align: center;
+
+                >img {
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}

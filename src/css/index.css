@@ -1,0 +1,368 @@
+.small-banner {
+  background: #fff;
+  margin: 0 0 24px;
+}
+.small-banner > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 170px;
+}
+.small-banner > .version_heart > :first-child {
+  width: 234px;
+  height: 170px;
+  padding: 3px;
+  background: url(../img/varity-bg.png);
+  float: left;
+  margin-right: 14px;
+}
+.small-banner > .version_heart > :first-child > a {
+  display: block;
+  width: 76px;
+  height: 82px;
+  padding: 18px 3px 3px 3px;
+  float: left;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.small-banner > .version_heart > :first-child > a > img {
+  width: 24px;
+  height: 24px;
+  margin: 0 23px 4px;
+}
+.small-banner > .version_heart > :first-child > a:hover {
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.small-banner > .version_heart > a {
+  width: 316px;
+  height: 170px;
+}
+.small-banner > .version_heart > :nth-child(3) {
+  margin: 0 10px;
+}
+.content {
+  background: #f5f5f5;
+  padding-bottom: 20px;
+  overflow: hidden;
+  height: 2100px;
+}
+.content > .version_heart {
+  margin: 0 auto;
+  width: 1226px;
+  position: relative;
+}
+.content > .version_heart > .kill-box {
+  position: relative;
+  overflow: hidden;
+}
+.content > .version_heart > .kill-box > :first-child {
+  padding: 20px 0 15px 0;
+}
+.content > .version_heart > .kill-box > .btns {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.content > .version_heart > .kill-box > .btns > div {
+  width: 36px;
+  height: 24px;
+  float: left;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+.content > .version_heart > .kill-box > .btns > div > a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 12px;
+  position: absolute;
+  line-height: 24px;
+}
+.content > .version_heart > .kill-box > .btns > :first-child {
+  padding: 0 0 0 12px;
+}
+.content > .version_heart > .kill-box > .btns > :last-child {
+  padding: 0 0 0 12px;
+}
+.content > .version_heart > .kill-box > .btns > div:hover > a {
+  color: #ff6700;
+}
+.content > .version_heart > .kill-box > .time {
+  width: 234px;
+  height: 340px;
+  padding: 39px 0 0;
+  background: #f1eded;
+  border-top: 1px solid #e53935;
+  text-align: center;
+  float: left;
+  z-index: 400;
+}
+.content > .version_heart > .kill-box > .time > :first-child {
+  padding: 15px 0 0;
+  font-size: 21px;
+  color: #ef3a3b;
+}
+.content > .version_heart > .kill-box > .time > img {
+  padding: 25px 0;
+}
+.content > .version_heart > .kill-box > .time > :nth-child(3) {
+  font-size: 15px;
+  color: #0000008A;
+}
+.content > .version_heart > .kill-box > .time > :last-child {
+  padding: 30px 40px 0 40px;
+}
+.content > .version_heart > .kill-box > .time > :last-child > i {
+  font-style: normal;
+  font-size: 28px;
+  float: left;
+}
+.content > .version_heart > .kill-box > .time > :last-child > span {
+  display: block;
+  width: 46px;
+  height: 46px;
+  float: left;
+  background: #605751;
+}
+.content > .version_heart > .kill-box > .time > :last-child > span > span {
+  font-size: 24px;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+}
+.content > .version_heart > .kill-box > .kill-commodity {
+  width: 2934px;
+  height: 340px;
+  float: right;
+  overflow: hidden;
+  position: absolute;
+  left: 248px;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div {
+  position: relative;
+  left: 0;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a {
+  display: block;
+  width: 234px;
+  height: 340px;
+  float: left;
+  border-top: 1px solid #e53935;
+  padding-top: 39px;
+  text-align: center;
+  margin-right: 14px;
+  background: rgba(0, 0, 0, 0.02);
+  z-index: 2;
+  text-decoration: none;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a > div {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a > div > img {
+  width: 200px;
+  height: 200px;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a > h3 {
+  margin: 0 20px 3px;
+  font-size: 14px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  color: #212121;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a > :nth-child(3) {
+  height: 18px;
+  margin: 0 20px 12px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  color: #b0b0b0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a > :last-child > span {
+  color: #ff6709;
+}
+.content > .version_heart > .kill-box > .kill-commodity > div > a > :last-child > del {
+  color: #b0b0b0;
+}
+.content > .version_heart > .banners1 {
+  margin: 0 auto;
+  height: 120px;
+  margin: 25px 0 20px;
+}
+.content > .version_heart > .phone-box {
+  height: 650px;
+  width: 1226px;
+  position: relative;
+  overflow: hidden;
+}
+.content > .version_heart > .phone-box > .more {
+  position: absolute;
+  right: 0;
+  top: 22px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.content > .version_heart > .phone-box > .more > :first-child {
+  color: #424242;
+}
+.content > .version_heart > .phone-box > .more > :last-child {
+  color: #b0b0b0;
+  font-size: 16px;
+}
+.content > .version_heart > .phone-box > .more:hover > span {
+  color: #ff6700;
+}
+.content > .version_heart > .phone-box > .phone-left {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+.content > .version_heart > .phone-box .phone-left:hover {
+  position: relative;
+  top: -2px;
+  box-shadow: 0 5px 5px #b0b0b0;
+  transition: all 0.3s linear;
+  user-select: none;
+}
+.content > .version_heart > .phone-box > .phone-right {
+  width: 992px;
+  height: 614px;
+  float: right;
+}
+.content > .version_heart > .phone-box > .phone-right > a {
+  display: block;
+  width: 234px;
+  height: 300px;
+  padding: 20px 0;
+  margin: 0 0 14px 14px;
+  background: #fff;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+.content > .version_heart > .phone-box > .phone-right > a > img {
+  width: 160px;
+  height: 160px;
+}
+.content > .version_heart > .phone-box > .phone-right > a > h3 {
+  padding: 0 10px 2px;
+}
+.content > .version_heart > .phone-box > .phone-right > a > :nth-child(3) {
+  height: 18px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.content > .version_heart > .phone-box > .phone-right > a > :last-child > span {
+  color: #ff6700;
+}
+.content > .version_heart > .phone-box > .phone-right > a:hover {
+  position: relative;
+  top: -2px;
+  box-shadow: 0 5px 5px #b0b0b0;
+  transition: all 0.3s linear;
+  user-select: none;
+}
+.content > .version_heart > .banners2 > img {
+  padding: 35px 0;
+}
+.content > .version_heart > .jd-box {
+  position: relative;
+  margin-top: -20px;
+}
+.content > .version_heart > .jd-box > .toggle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+}
+.content > .version_heart > .jd-box > .toggle > a {
+  color: #424242;
+  margin: 0 0 0 30px;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 2px;
+  float: left;
+}
+.content > .version_heart > .jd-box > .toggle > .active {
+  color: #ff6700;
+  border-bottom: 2px solid #ff6700;
+}
+.content > .version_heart > .jd-box > .jd-left {
+  height: 614px;
+  width: 234px;
+  float: left;
+}
+.content > .version_heart > .jd-box > .jd-left > a {
+  display: block;
+  width: 234px;
+  height: 300px;
+  overflow: hidden;
+}
+.content > .version_heart > .jd-box > .jd-left > :first-child {
+  margin-bottom: 14px;
+}
+.content > .version_heart > .jd-box > .jd-left > a:hover {
+  position: relative;
+  top: -2px;
+  box-shadow: 0 5px 5px #b0b0b0;
+  transition: all 0.3s linear;
+  user-select: none;
+}
+.content > .version_heart > .jd-box > .jd-right {
+  width: 992px;
+  height: 614px;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.content > .version_heart > .jd-box > .jd-right > .display {
+  display: block;
+}
+.content > .version_heart > .jd-box > .jd-right > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a {
+  display: block;
+  width: 234px;
+  height: 300px;
+  padding: 20px 0;
+  margin: 0 0 14px 14px;
+  background: #fff;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a > img {
+  width: 160px;
+  height: 160px;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a > h3 {
+  padding: 0 10px 2px;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a > :nth-child(3) {
+  height: 18px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a > :last-child > span {
+  color: #ff6700;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a > :last-child > del {
+  color: #b0b0b0;
+}
+.content > .version_heart > .jd-box > .jd-right > div > a:hover {
+  position: relative;
+  top: -2px;
+  box-shadow: 0 5px 5px #b0b0b0;
+  transition: all 0.3s linear;
+  user-select: none;
+}

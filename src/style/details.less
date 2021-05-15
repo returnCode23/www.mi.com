@@ -1,0 +1,492 @@
+@min-width: 1226px;
+@center   : 0 auto;
+
+
+.content {
+    >._title {
+        border  : 1px solid #ccc;
+        position: sticky;
+
+        >.version_heart {
+            width   : @min-width;
+            margin  : @center;
+            height  : 60px;
+            overflow: hidden;
+
+            >h2 {
+                margin     : 0;
+                color      : #424242;
+                font-weight: 400;
+                line-height: 60px;
+                font-size  : 18px;
+                float      : left;
+            }
+
+            >a {
+                float          : right;
+                line-height    : 60px;
+                color          : #616161;
+                text-decoration: none;
+            }
+
+            >a:hover {
+                color: #ff6700;
+            }
+        }
+    }
+
+    >.login-msg {
+        background: #f3f3f3;
+
+        >.version_heart {
+            width      : @min-width;
+            margin     : @center;
+            height     : 48px;
+            text-align : center;
+            line-height: 48px;
+            font-size  : 14px;
+
+            >a {
+                text-decoration: none;
+                color          : #ff6700;
+                font-size      : 14px;
+            }
+
+            >.log-txt {
+                margin: 0 0 0 25px;
+            }
+
+            >.times {
+                margin: 0 0 0 10px;
+                color : #b0b0b0;
+            }
+        }
+    }
+
+    >.page-info {
+        background: #fff;
+
+        >.version_heart {
+            width  : @min-width;
+            margin : @center;
+            height : 784px;
+            padding: 32px 0 12px;
+
+            >:first-child {
+                float : left;
+                width : 606px;
+                height: 740px;
+
+                >img {
+                    width : 560px;
+                    height: 560px;
+                }
+            }
+
+            >:last-child {
+                float : right;
+                width : 600px;
+                height: 740px;
+                margin: 0 0 0 20px;
+
+                >h2 {
+                    margin     : 0;
+                    padding    : 0;
+                    font-size  : 24px;
+                    font-weight: 400;
+                    color      : #212121;
+                }
+
+                >.Features {
+                    color      : #b0b0b0;
+                    margin     : 0;
+                    padding    : 0;
+                    padding-top: 8px;
+                    line-height: 1.5;
+                }
+
+                >.store-info {
+                    color        : #ff6700;
+                    margin-bottom: 0;
+                }
+
+                >.price-info {
+                    display    : block;
+                    font-size  : 18px;
+                    line-height: 1;
+                    color      : #ff6700;
+                    padding    : 12px 0 10px;
+                }
+
+                >.line {
+                    margin-top   : 12px;
+                    border-bottom: 1px solid #e0e0e0;
+                }
+
+                >.address {
+                    margin    : 20px 0 0;
+                    padding   : 30px 50px;
+                    position  : relative;
+                    background: #fafafa;
+                    border    : 1px solid #e0e0e0;
+                    width     : 600px;
+                    height    : 104px;
+
+                    >:first-child {
+                        >span {
+                            margin: 0 14px 0 0;
+                        }
+
+                        >a {
+                            color          : #ff6700;
+                            text-decoration: none;
+                        }
+                    }
+
+                    >:last-child {
+                        >span {
+                            color: #ff6700;
+                        }
+                    }
+                }
+
+                >.select-color {
+                    padding: 24px 0 0;
+
+                    >span {
+                        font-size: 18px;
+                        color    : #333;
+                    }
+
+                    >a {
+                        text-decoration: none;
+                        margin     : 10px 0 0;
+                        width      : 290px;
+                        height     : 40px;
+                        border     : 1px solid #ff6700;
+                        display    : block;
+                        text-align : center;
+                        line-height: 40px;
+                        color      : #ff6700;
+                        font-size  : 16px;
+                    }
+                }
+
+                >.select-list {
+                    width     : 600px;
+                    height    : 146px;
+                    padding   : 30px;
+                    background: #f9f9f9;
+                    margin    : 30px 0;
+
+                    >:first-child {
+                        >span {
+                            font-size: 14px;
+                            color    : #616161;
+                        }
+
+                        >:first-child {
+                            text-align: left;
+                        }
+
+                        >:last-child {
+                            float: right;
+                        }
+                    }
+
+                    >:last-child {
+                        color      : #ff6700;
+                        font-size  : 24px;
+                        padding-top: 20px;
+                    }
+                }
+
+                >.Notice-info {
+                    overflow: hidden;
+
+                    >a {
+                        text-decoration: none;
+                    }
+
+                    >:first-child {
+                        border     : 1px solid #ff6700;
+                        background : #ff6700;
+                        color      : #fff;
+                        width      : 298px;
+                        height     : 52px;
+                        display    : block;
+                        text-align : center;
+                        line-height: 52px;
+                        font-size  : 16px;
+                        float      : left;
+                    }
+
+                    >:last-child {
+                        display    : block;
+                        width      : 140px;
+                        height     : 52px;
+                        line-height: 52px;
+                        border     : 1px solid #b0b0b0;
+                        text-align : center;
+                        font-size  : 16px;
+                        float      : left;
+                        margin     : 0 0 0 8px;
+                        background : #b0b0b0;
+                        color      : #fff;
+                        transition : all .4s;
+
+                        >.icon-02 {
+                            font-size   : 22px;
+                            margin-right: 4px;
+                            font-weight : bold;
+                        }
+                    }
+                    >:first-child:hover{
+                        background:rgb(242, 88, 7);
+                    }
+                    >:last-child:hover {
+                        background: #757575;
+                    }
+                }
+
+                >.Logistics {
+                    width : 600px;
+                    height: 82px;
+                    margin: 15px 0 0;
+
+                    >:first-child {
+                        color    : #b0b0b0;
+                        font-size: 14px;
+
+                        >span {
+                            margin: 0 8px 0 0;
+                        }
+
+                        .icon-02 {
+                            font-size: 20px;
+                        }
+                    }
+
+                    >:last-child {
+                        color     : #b0b0b0;
+                        margin-top: 10px;
+                        font-size : 14px;
+
+                        >span {
+                            margin: 0 8px 0 0;
+                        }
+
+                        .icon-02 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        >.pic {
+            background: #e0e0e0;
+            padding   : 0 0 50px;
+
+            >.version_heart {
+                margin: @center;
+                width : @min-width;
+
+                >h3 {
+                    padding  : 22px 0;
+                    font-size: 22px;
+                    color    : #333;
+                }
+
+                >.wx {
+                    >img {
+                        height: 160px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    >.server {
+        background: #fff;
+
+        >.version_heart {
+            width : @min-width;
+            margin: @center;
+            height: 332px;
+
+            >:first-child {
+                padding      : 27px 0;
+                text-align   : center;
+                height       : 80px;
+                border-bottom: 1px solid #e0e0e0;
+
+                >a {
+                    font-size      : 16px;
+                    display        : block;
+                    width          : 242px;
+                    float          : left;
+                    text-decoration: none;
+                    color          : #333;
+                }
+            }
+
+            >:nth-child(2) {
+                padding: 40px 0;
+                float  : left;
+                width  : @min-width;
+                height : 252px;
+
+                >:first-child {
+                    >ul {
+                        list-style: none;
+                        float     : left;
+                        width     : 160px;
+
+                        >.title {
+                            margin: -1px 0 26px;
+                        }
+
+                        >li {
+                            font-size: 14px;
+                            color    : #333;
+                            margin   : 10px 0 0;
+
+                            >a {
+                                font-size      : 12px;
+                                color          : #757575;
+                                text-decoration: none;
+                            }
+
+                            >a:hover {
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+
+                >:last-child {
+                    float      : left;
+                    width      : 251px;
+                    border-left: 1px solid #e0e0e0;
+                    text-align : center;
+                    color      : #616161;
+
+                    >.phone {
+                        font-size  : 22px;
+                        line-height: 1;
+                        color      : #ff6700;
+                    }
+
+                    >p {
+                        margin   : 0 0 5px 0;
+                        font-size: 12px;
+                    }
+
+                    >a {
+                        text-decoration: none;
+                        display        : block;
+                        width          : 118px;
+                        height         : 28px;
+                        border         : 1px solid #ff6700;
+                        margin         : 0 auto;
+                        line-height    : 28px;
+                        color          : #ff6700;
+                        font-size      : 12px;
+
+                        >.icon-qipao {
+                            font-size: 12px;
+                        }
+                    }
+
+                    >:last-child {
+                        margin   : 10px 0 0;
+                        font-size: 12px;
+
+                        >a {
+                            text-decoration: none;
+
+                            >.icon-xinlang,
+                            .icon-weixin {
+                                color    : #757575;
+                                font-size: 24px;
+                                margin   : -3px 0 0 6px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    >.info {
+        background: #fafafa;
+
+        >.version_heart {
+            width  : @min-width;
+            margin : @center;
+            height : 266px;
+            padding: 35px 0;
+
+            >:first-child {
+                >img {
+                    width : 56px;
+                    height: 56px;
+                    float : left;
+                }
+            }
+
+            >:nth-child(2) {
+                float     : left;
+                margin-top: 3px;
+
+                a:hover {
+                    color: #ff6700;
+                }
+
+                >p {
+                    margin   : 0 0 0 4px;
+                    font-size: 12px;
+                    color    : #757575;
+
+                    >a {
+                        text-decoration: none;
+                        font-size      : 12px;
+                        color          : #757575;
+                    }
+
+                    >span {
+                        font-size: 12px;
+                        color    : #757575;
+                        margin   : 0 4px;
+                    }
+
+                    >div {
+                        >a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                >:last-child {
+                    >a {
+                        >img {
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+
+            >:last-child {
+                text-align: center;
+
+                >img {
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}

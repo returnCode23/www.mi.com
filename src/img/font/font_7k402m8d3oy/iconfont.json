@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7158862",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    }
+  ]
+}

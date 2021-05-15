@@ -1,0 +1,388 @@
+.content > ._title {
+  border: 1px solid #ccc;
+  position: sticky;
+}
+.content > ._title > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 60px;
+  overflow: hidden;
+}
+.content > ._title > .version_heart > h2 {
+  margin: 0;
+  color: #424242;
+  font-weight: 400;
+  line-height: 60px;
+  font-size: 18px;
+  float: left;
+}
+.content > ._title > .version_heart > a {
+  float: right;
+  line-height: 60px;
+  color: #616161;
+  text-decoration: none;
+}
+.content > ._title > .version_heart > a:hover {
+  color: #ff6700;
+}
+.content > .login-msg {
+  background: #f3f3f3;
+}
+.content > .login-msg > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 14px;
+}
+.content > .login-msg > .version_heart > a {
+  text-decoration: none;
+  color: #ff6700;
+  font-size: 14px;
+}
+.content > .login-msg > .version_heart > .log-txt {
+  margin: 0 0 0 25px;
+}
+.content > .login-msg > .version_heart > .times {
+  margin: 0 0 0 10px;
+  color: #b0b0b0;
+}
+.content > .page-info {
+  background: #fff;
+}
+.content > .page-info > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 784px;
+  padding: 32px 0 12px;
+}
+.content > .page-info > .version_heart > :first-child {
+  float: left;
+  width: 606px;
+  height: 740px;
+}
+.content > .page-info > .version_heart > :first-child > img {
+  width: 560px;
+  height: 560px;
+}
+.content > .page-info > .version_heart > :last-child {
+  float: right;
+  width: 600px;
+  height: 740px;
+  margin: 0 0 0 20px;
+}
+.content > .page-info > .version_heart > :last-child > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #212121;
+}
+.content > .page-info > .version_heart > :last-child > .Features {
+  color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  line-height: 1.5;
+}
+.content > .page-info > .version_heart > :last-child > .store-info {
+  color: #ff6700;
+  margin-bottom: 0;
+}
+.content > .page-info > .version_heart > :last-child > .price-info {
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+  color: #ff6700;
+  padding: 12px 0 10px;
+}
+.content > .page-info > .version_heart > :last-child > .line {
+  margin-top: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.content > .page-info > .version_heart > :last-child > .address {
+  margin: 20px 0 0;
+  padding: 30px 50px;
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  width: 600px;
+  height: 104px;
+}
+.content > .page-info > .version_heart > :last-child > .address > :first-child > span {
+  margin: 0 14px 0 0;
+}
+.content > .page-info > .version_heart > :last-child > .address > :first-child > a {
+  color: #ff6700;
+  text-decoration: none;
+}
+.content > .page-info > .version_heart > :last-child > .address > :last-child > span {
+  color: #ff6700;
+}
+.content > .page-info > .version_heart > :last-child > .select-color {
+  padding: 24px 0 0;
+}
+.content > .page-info > .version_heart > :last-child > .select-color > span {
+  font-size: 18px;
+  color: #333;
+}
+.content > .page-info > .version_heart > :last-child > .select-color > a {
+  text-decoration: none;
+  margin: 10px 0 0;
+  width: 290px;
+  height: 40px;
+  border: 1px solid #ff6700;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  color: #ff6700;
+  font-size: 16px;
+}
+.content > .page-info > .version_heart > :last-child > .select-list {
+  width: 600px;
+  height: 146px;
+  padding: 30px;
+  background: #f9f9f9;
+  margin: 30px 0;
+}
+.content > .page-info > .version_heart > :last-child > .select-list > :first-child > span {
+  font-size: 14px;
+  color: #616161;
+}
+.content > .page-info > .version_heart > :last-child > .select-list > :first-child > :first-child {
+  text-align: left;
+}
+.content > .page-info > .version_heart > :last-child > .select-list > :first-child > :last-child {
+  float: right;
+}
+.content > .page-info > .version_heart > :last-child > .select-list > :last-child {
+  color: #ff6700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info {
+  overflow: hidden;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info > a {
+  text-decoration: none;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info > :first-child {
+  border: 1px solid #ff6700;
+  background: #ff6700;
+  color: #fff;
+  width: 298px;
+  height: 52px;
+  display: block;
+  text-align: center;
+  line-height: 52px;
+  font-size: 16px;
+  float: left;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info > :last-child {
+  display: block;
+  width: 140px;
+  height: 52px;
+  line-height: 52px;
+  border: 1px solid #b0b0b0;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  margin: 0 0 0 8px;
+  background: #b0b0b0;
+  color: #fff;
+  transition: all 0.4s;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info > :last-child > .icon-02 {
+  font-size: 22px;
+  margin-right: 4px;
+  font-weight: bold;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info > :first-child:hover {
+  background: #f25807;
+}
+.content > .page-info > .version_heart > :last-child > .Notice-info > :last-child:hover {
+  background: #757575;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics {
+  width: 600px;
+  height: 82px;
+  margin: 15px 0 0;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics > :first-child {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics > :first-child > span {
+  margin: 0 8px 0 0;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics > :first-child .icon-02 {
+  font-size: 20px;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics > :last-child {
+  color: #b0b0b0;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics > :last-child > span {
+  margin: 0 8px 0 0;
+}
+.content > .page-info > .version_heart > :last-child > .Logistics > :last-child .icon-02 {
+  font-size: 20px;
+}
+.content > .page-info > .pic {
+  background: #e0e0e0;
+  padding: 0 0 50px;
+}
+.content > .page-info > .pic > .version_heart {
+  margin: 0 auto;
+  width: 1226px;
+}
+.content > .page-info > .pic > .version_heart > h3 {
+  padding: 22px 0;
+  font-size: 22px;
+  color: #333;
+}
+.content > .page-info > .pic > .version_heart > .wx > img {
+  height: 160px;
+}
+.footer > .server {
+  background: #fff;
+}
+.footer > .server > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 332px;
+}
+.footer > .server > .version_heart > :first-child {
+  padding: 27px 0;
+  text-align: center;
+  height: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer > .server > .version_heart > :first-child > a {
+  font-size: 16px;
+  display: block;
+  width: 242px;
+  float: left;
+  text-decoration: none;
+  color: #333;
+}
+.footer > .server > .version_heart > :nth-child(2) {
+  padding: 40px 0;
+  float: left;
+  width: 1226px;
+  height: 252px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul {
+  list-style: none;
+  float: left;
+  width: 160px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > .title {
+  margin: -1px 0 26px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > li {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0 0;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > li > a {
+  font-size: 12px;
+  color: #757575;
+  text-decoration: none;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > li > a:hover {
+  color: #ff6700;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child {
+  float: left;
+  width: 251px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > .phone {
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > p {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > a {
+  text-decoration: none;
+  display: block;
+  width: 118px;
+  height: 28px;
+  border: 1px solid #ff6700;
+  margin: 0 auto;
+  line-height: 28px;
+  color: #ff6700;
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > a > .icon-qipao {
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a {
+  text-decoration: none;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-xinlang,
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a .icon-weixin {
+  color: #757575;
+  font-size: 24px;
+  margin: -3px 0 0 6px;
+}
+.footer > .info {
+  background: #fafafa;
+}
+.footer > .info > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 266px;
+  padding: 35px 0;
+}
+.footer > .info > .version_heart > :first-child > img {
+  width: 56px;
+  height: 56px;
+  float: left;
+}
+.footer > .info > .version_heart > :nth-child(2) {
+  float: left;
+  margin-top: 3px;
+}
+.footer > .info > .version_heart > :nth-child(2) a:hover {
+  color: #ff6700;
+}
+.footer > .info > .version_heart > :nth-child(2) > p {
+  margin: 0 0 0 4px;
+  font-size: 12px;
+  color: #757575;
+}
+.footer > .info > .version_heart > :nth-child(2) > p > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #757575;
+}
+.footer > .info > .version_heart > :nth-child(2) > p > span {
+  font-size: 12px;
+  color: #757575;
+  margin: 0 4px;
+}
+.footer > .info > .version_heart > :nth-child(2) > p > div > a {
+  text-decoration: none;
+}
+.footer > .info > .version_heart > :nth-child(2) > :last-child > a > img {
+  width: 80px;
+}
+.footer > .info > .version_heart > :last-child {
+  text-align: center;
+}
+.footer > .info > .version_heart > :last-child > img {
+  padding-top: 30px;
+}

@@ -1,0 +1,163 @@
+body {
+  background: #f9f9f9;
+  color: #666;
+}
+body > :first-child {
+  width: 854px;
+  height: 380px;
+  padding: 200px 34px 30px;
+  background: #fff;
+  margin: 130px auto 0;
+}
+body > :first-child > :first-child {
+  text-align: center;
+  margin-top: -160px;
+}
+body > :first-child > :first-child > img {
+  width: 48px;
+  height: 48px;
+}
+body > :first-child > :nth-child(2) {
+  text-align: center;
+}
+body > :first-child > :nth-child(2) > h4 {
+  font-size: 30px;
+  color: #333;
+  font-weight: normal;
+}
+body > :first-child > :nth-child(3) {
+  width: 332px;
+  height: 332px;
+  margin: 0 auto;
+}
+body > :first-child > :nth-child(3) > h4 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+}
+body > :first-child > :nth-child(3) > :nth-child(2) {
+  width: 318px;
+  height: 40px;
+  padding-left: 14px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  color: #555;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+body > :first-child > :nth-child(3) > :nth-child(2) > p {
+  position: absolute;
+  float: left;
+  width: 275px;
+  border-right: 1px solid #e8e8e8;
+  cursor: pointer;
+  margin: 0;
+}
+body > :first-child > :nth-child(3) > :nth-child(2) > span {
+  float: right;
+  margin-right: 12px;
+  color: #e5e5e5;
+}
+body > :first-child > :nth-child(3) > :nth-child(3) {
+  color: #666;
+  font-size: 14px;
+  margin: 3px 0 14px;
+}
+body > :first-child > :nth-child(3) > :nth-child(4) {
+  margin: 2px 0 10px;
+}
+body > :first-child > :nth-child(3) > :nth-child(5) {
+  width: 332px;
+  height: 40px;
+  font-size: 14px;
+  color: #555;
+  position: relative;
+}
+body > :first-child > :nth-child(3) > :nth-child(5) > div {
+  margin: 0;
+  width: 54px;
+  height: 40px;
+  padding-left: 14px;
+  line-height: 40px;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  color: #555;
+  cursor: pointer;
+  float: left;
+}
+body > :first-child > :nth-child(3) > :nth-child(5) > input {
+  width: 240px;
+  height: 20px;
+  line-height: 20px;
+  padding: 9px;
+  float: left;
+  border: 1px solid #e8e8e8;
+  outline: none;
+}
+body > :first-child > :nth-child(3) > :nth-child(5) > .icon-xiala {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+body > :first-child > :nth-child(3) > .ms {
+  font-size: 14px;
+  color: #f66;
+  padding-top: 4px;
+  display: none;
+}
+body > :first-child > :nth-child(3) > :nth-child(7) > form > button {
+  width: 330px;
+  height: 42px;
+  margin: 30px 1px 0;
+  background-color: #ff6700;
+  color: #fff;
+  border: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+body > :first-child > :nth-child(3) > .msg {
+  text-align: center;
+  margin: 60px 0 0;
+}
+body > :first-child > :nth-child(3) > .msg > label {
+  padding: 10px 0;
+  cursor: pointer;
+  display: inline-block;
+  color: #9d9d9d;
+  font-size: 14px;
+}
+body > :first-child > :nth-child(3) > .msg > label > a {
+  text-decoration: none;
+  color: #333;
+}
+.lang {
+  margin: 140px 0 0 800px;
+  overflow: hidden;
+}
+.lang > li {
+  list-style: none;
+  float: left;
+}
+.lang > li > a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.lang > :not(:first-child) > a {
+  color: #757575;
+}
+.nf-intro {
+  margin: 10px 0 0 670px;
+}
+.nf-intro > span {
+  font-size: 14px;
+  color: #9d9d9d;
+}
+.nf-intro a {
+  text-decoration: none;
+  color: #9d9d9d;
+}

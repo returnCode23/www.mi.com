@@ -1,0 +1,175 @@
+.footer > .server {
+  background: #fff;
+}
+.footer > .server > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  height: 332px;
+}
+.footer > .server > .version_heart > :first-child {
+  padding: 27px 0;
+  text-align: center;
+  height: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer > .server > .version_heart > :first-child > a {
+  font-size: 16px;
+  display: block;
+  width: 242px;
+  float: left;
+  text-decoration: none;
+  color: #333;
+}
+.footer > .server > .version_heart > :nth-child(2) {
+  padding: 40px 0;
+  float: left;
+  width: 1226px;
+  height: 252px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul {
+  list-style: none;
+  float: left;
+  width: 160px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > .title {
+  margin: -1px 0 26px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > li {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0 0;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > li > a {
+  font-size: 12px;
+  color: #757575;
+  text-decoration: none;
+}
+.footer > .server > .version_heart > :nth-child(2) > :first-child > ul > li > a:hover {
+  color: #ff6700;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child {
+  float: left;
+  width: 251px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > .phone {
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > p {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > a {
+  text-decoration: none;
+  display: block;
+  width: 118px;
+  height: 28px;
+  border: 1px solid #ff6700;
+  margin: 0 auto;
+  line-height: 28px;
+  color: #ff6700;
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > a > .icon-qipao {
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > a:hover {
+  background: #f25807;
+  color: #fff;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a {
+  text-decoration: none;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-xinlang,
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a .icon-weixin {
+  color: #757575;
+  font-size: 24px;
+  margin: -3px 0 0 6px;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-weixin {
+  position: relative;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-weixin > img {
+  width: 126px;
+  height: 126px;
+  position: absolute;
+  left: -50px;
+  top: 25px;
+  display: none;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-xinlang:hover {
+  color: #ff6700;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-weixin:hover {
+  color: #ff6700;
+}
+.footer > .server > .version_heart > :nth-child(2) > :last-child > :last-child > a > .icon-weixin:hover > img {
+  display: block;
+}
+.footer > .info {
+  background: #fafafa;
+}
+.footer > .info > .version_heart {
+  width: 1226px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+.footer > .info > .version_heart > :first-child > img {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 10px;
+}
+.footer > .info > .version_heart > :nth-child(2) {
+  float: left;
+  margin-top: 3px;
+}
+.footer > .info > .version_heart > :nth-child(2) a:hover {
+  color: #ff6700;
+}
+.footer > .info > .version_heart > :nth-child(2) > p {
+  margin: 0 0 0 4px;
+  font-size: 12px;
+  color: #757575;
+}
+.footer > .info > .version_heart > :nth-child(2) > p > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #757575;
+}
+.footer > .info > .version_heart > :nth-child(2) > p > span {
+  font-size: 12px;
+  color: #757575;
+  margin: 0 4px;
+}
+.footer > .info > .version_heart > :nth-child(2) > p > div > a {
+  text-decoration: none;
+}
+.footer > .info > .version_heart > :nth-child(2) > :last-child > a {
+  text-decoration: none;
+}
+.footer > .info > .version_heart > :nth-child(2) > :last-child > a > img {
+  width: 80px;
+}
+.footer > .info > .version_heart > :nth-child(2) > :last-child > :last-child {
+  position: relative;
+}
+.footer > .info > .version_heart > :nth-child(2) > :last-child > :last-child > .green-img {
+  position: absolute;
+  left: 8px;
+  top: -6px;
+}
+.footer > .info > .version_heart > :last-child {
+  text-align: center;
+}
+.footer > .info > .version_heart > :last-child > img {
+  padding-top: 30px;
+}

@@ -1,0 +1,142 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "477620",
+      "name": "新浪",
+      "font_class": "xinlang",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "778735",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "3607864",
+      "name": "7天",
+      "font_class": "sevenday-copy",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "4436844",
+      "name": "扳手",
+      "font_class": "banshou",
+      "unicode": "e518",
+      "unicode_decimal": 58648
+    },
+    {
+      "icon_id": "4479100",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "12082210",
+      "name": "闭眼",
+      "font_class": "yanjing1",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "12370117",
+      "name": "问好",
+      "font_class": "wenhao-copy",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "12383468",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "12619263",
+      "name": "购物车",
+      "font_class": "close",
+      "unicode": "e515",
+      "unicode_decimal": 58645
+    },
+    {
+      "icon_id": "12978131",
+      "name": "箭头实心",
+      "font_class": "jiantoushixin",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "13371264",
+      "name": "气泡",
+      "font_class": "qipao",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "15000267",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "ea0c",
+      "unicode_decimal": 59916
+    },
+    {
+      "icon_id": "16271126",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "16707893",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "16875415",
+      "name": "新浪",
+      "font_class": "xinlang1",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "17729049",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e83b",
+      "unicode_decimal": 59451
+    },
+    {
+      "icon_id": "18261995",
+      "name": "定位",
+      "font_class": "Frame1",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "18368075",
+      "name": "微信",
+      "font_class": "weixin1",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "19454097",
+      "name": "15天无理由退货",
+      "font_class": "15tianwuliyoutuihuo",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    }
+  ]
+}
