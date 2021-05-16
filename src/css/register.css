@@ -108,7 +108,11 @@ body > :first-child > :nth-child(3) > .ms {
   padding-top: 4px;
   display: none;
 }
-body > :first-child > :nth-child(3) > :nth-child(7) > form > button {
+body > :first-child > :nth-child(3) > :nth-child(7) {
+  overflow: hidden;
+  margin-top: 10px;
+}
+body > :first-child > :nth-child(3) > :nth-child(7) > button {
   width: 330px;
   height: 42px;
   margin: 30px 1px 0;

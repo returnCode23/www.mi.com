@@ -12,14 +12,32 @@ $.ajax({
     },
     dataType: "json",
     success: function (res) {
-        let picture = JSON.parse(res.pic);
+        let pic = JSON.parse(res.pic);
+
         let temp = `
+        <div class="_title">
+            <div class="version_heart">
+                <h2>${res.title}</h2>
+                <a href="">用户评价</a>
+            </div>
+        </div>
+        <div class="login-msg">
+            <div class="version_heart">
+                <span>
+                    为方便您购买，请提前登录
+                </span>
+                <a href="./login.html" class="log-txt">立即登录</a>
+                <a href="#" class="times">&times;</a>
+            </div>
+        </div>
+        <div class="page-info">
+            <div class="version_heart">
         <div>
-                <img src="../${picture[0].src}">
+                    <img src="../${pic[0].src}" alt="">
                 </div>
                 <div>
                     <h2>${res.title}</h2>
-                    <p class="Features">${res.details}</p>
+                    <p class="Features">${res.title}</p>
                     <p class="store-info">小米自营</p>
                     <span class="price-info">${res.price} 元</span>
                     <div class="line"></div>
@@ -50,40 +68,43 @@ $.ajax({
                         </div>
                     </div>
                     <div class="Notice-info">
-                    <a href="./shoping_cart.html"  id="additem">加入购物车</a>
-                    <a href=""><span class="iconfont icon-02"></span>喜欢</a>
-                </div>
-                <div class="Logistics">
-                    <div>
-                        <span class="iconfont icon-quangou"></span><span>小米自营</span>
-                        <span class="iconfont icon-quangou"></span><span>小米发货</span>
-                        <span class="iconfont icon-quangou"></span><span>7天无理由退货</span>
-                        <span class="iconfont icon-quangou"></span><span>运费说明</span>
-                        <span class="iconfont icon-quangou"></span><span>企业信息</span>
+                        <a href="./shoping_cart.html" class="add-cart">加入购物车</a>
+                        <a href=""><span class="iconfont icon-02"></span>喜欢</a>
                     </div>
-                    <div>
-                        <span class="iconfont icon-quangou"></span><span>售后服务政策</span>
-                        <span class="iconfont icon-quangou"></span><span>7天价格保护</span>
+                    <div class="Logistics">
+                        <div>
+                            <span class="iconfont icon-quangou"></span><span>小米自营</span>
+                            <span class="iconfont icon-quangou"></span><span>小米发货</span>
+                            <span class="iconfont icon-quangou"></span><span>7天无理由退货</span>
+                            <span class="iconfont icon-quangou"></span><span>运费说明</span>
+                            <span class="iconfont icon-quangou"></span><span>企业信息</span>
+                        </div>
+                        <div>
+                            <span class="iconfont icon-quangou"></span><span>售后服务政策</span>
+                            <span class="iconfont icon-quangou"></span><span>7天价格保护</span>
+                        </div>
                     </div>
                 </div>
+            </div>
         `;
-        $('.page-info>.version_heart').html(temp).find('.add-cart').on('click',function(){
-          addItem(res.id,res.price);
+
+        $('.content').append(temp).find('.add-cart').on('click', function () {
+            let num=1;
+            addItem(res.id, res.price,num);
         });
     }
 });
 
 
-
 function addItem(id, price, num) {
-    
     let shop = cookie.get('shop');
-console.log(shop)
+
     let product = {
         id,
         price,
         num
     }
+
     // 判断当前cookie中是否有购物数据
     if (shop) { // 如果有数据 取出是一个字符串
         shop = JSON.parse(shop);

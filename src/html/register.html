@@ -19,7 +19,7 @@
         <div>
             <h4>注册小米账号</h4>
         </div>
-        <div>
+        <form action="../../interface/reg.php" method="POST" name="phone">
             <h4>国家地区</h4>
             <div>
                 <p class="country">博茨瓦纳</p>
@@ -30,15 +30,13 @@
             <div class="pne-input">
                 <div>+86</div>
                 <span class="iconfont icon-xiala"></span>
-                <input type="text" placeholder="请输入手机号"/>
+                <input type="text" name='phone' placeholder="请输入手机号"/>
             </div>
             <div class="ms">
                 请输入手机号码
             </div>
             <div>
-                <form action="../../interface/reg.php" method="POST">
-                    <button type="submit">立即注册</button>
-                </form>
+                <button type="submit">立即注册</button>
             </div>
             <div class="msg">
                 <label>
@@ -46,7 +44,7 @@
                         target="_blank"> 隐私政策 </a>
                 </label>
             </div>
-        </div>
+        </form>
     </div>
 
     <ul class="lang">

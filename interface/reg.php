@@ -16,8 +16,7 @@
     }
 
     // 插入数据
-    $insert = "insert into users (phone) values ('$phone')";
-
+    $insert = "insert into user (username,password,phone) values ('$phone','','$phone')";
     // 执行插入操作时 返回一个布尔值 表示数据是否插入成功
     $res = $mysqli->query($insert); 
     $mysqli->close();

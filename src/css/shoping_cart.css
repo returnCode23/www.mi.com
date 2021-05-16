@@ -207,7 +207,7 @@
 }
 .content > .version_heart > .cart > .item-box > .col-total {
   width: 201px;
-  text-align: right;
+  text-align: center;
   font-size: 16px;
   color: #ff6700;
 }
